@@ -118,7 +118,7 @@ section                    address      alignment gaps    total length  (dec)
 .ndata                      0x104c                   0             0x6  (6)
 .bss                        0x1052                   0           0x740  (1856)
 .bss                        0x1792                   0            0x20  (32)
-_0589E4805e693e0a           0x1800                   0           0x200  (512)
+_058AE4805e6b1cc7           0x1800                   0           0x200  (512)
 .bss                        0x1a00                   0            0xa8  (168)
 
                  Total "data" memory used (bytes):          0xa5a  (2650) 5%
@@ -738,7 +738,7 @@ __FOSCSEL
 
 __FGS             0x0557fa          0x2
  *(__FGS.sec*)
- __FGS.sec        0x0557fa          0x2 /CW/_FGSp*ô
+ __FGS.sec        0x0557fa          0x2 /CW/_FGSà__FGS.sec
                   0x0557fa                  __FGS.sec
 
 __FUID0
@@ -756,7 +756,7 @@ __FUID3
 .comment
  *(.comment)
 
-.debug_info       0x000000      0x1310a
+.debug_info       0x000000      0x12f6a
  *(.debug_info)
  .debug_info      0x000000        0x1fc build/default/production/FastTransfer/crc.o
  .debug_info      0x0001fc        0x5b7 build/default/production/FastTransfer/ft.o
@@ -773,15 +773,15 @@ __FUID3
  .debug_info      0x00c37e       0x195e build/default/production/mcc_generated_files/system.o
  .debug_info      0x00dcdc        0x5ed build/default/production/mcc_generated_files/traps.o
  .debug_info      0x00e2c9       0x14bf build/default/production/FastTransfer_CAN.o
- .debug_info      0x00f788        0x321 build/default/production/Init.o
- .debug_info      0x00faa9        0xf88 build/default/production/commsReceive.o
- .debug_info      0x010a31        0xa84 build/default/production/main.o
- .debug_info      0x0114b5        0x8b0 build/default/production/peripheralSystems.o
- .debug_info      0x011d65        0x8df build/default/production/timers.o
- .debug_info      0x012644        0xac6 build/default/production/uart1_config.o
+ .debug_info      0x00f788        0x181 build/default/production/Init.o
+ .debug_info      0x00f909        0xf88 build/default/production/commsReceive.o
+ .debug_info      0x010891        0xa84 build/default/production/main.o
+ .debug_info      0x011315        0x8b0 build/default/production/peripheralSystems.o
+ .debug_info      0x011bc5        0x8df build/default/production/timers.o
+ .debug_info      0x0124a4        0xac6 build/default/production/uart1_config.o
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev     0x000000       0x19ff
+.debug_abbrev     0x000000       0x19bd
  *(.debug_abbrev)
  .debug_abbrev    0x000000         0x7c build/default/production/FastTransfer/crc.o
  .debug_abbrev    0x00007c        0x127 build/default/production/FastTransfer/ft.o
@@ -798,12 +798,12 @@ __FUID3
  .debug_abbrev    0x000d10        0x13a build/default/production/mcc_generated_files/system.o
  .debug_abbrev    0x000e4a        0x10d build/default/production/mcc_generated_files/traps.o
  .debug_abbrev    0x000f57        0x210 build/default/production/FastTransfer_CAN.o
- .debug_abbrev    0x001167         0x9b build/default/production/Init.o
- .debug_abbrev    0x001202        0x209 build/default/production/commsReceive.o
- .debug_abbrev    0x00140b        0x176 build/default/production/main.o
- .debug_abbrev    0x001581        0x19b build/default/production/peripheralSystems.o
- .debug_abbrev    0x00171c        0x171 build/default/production/timers.o
- .debug_abbrev    0x00188d        0x172 build/default/production/uart1_config.o
+ .debug_abbrev    0x001167         0x59 build/default/production/Init.o
+ .debug_abbrev    0x0011c0        0x209 build/default/production/commsReceive.o
+ .debug_abbrev    0x0013c9        0x176 build/default/production/main.o
+ .debug_abbrev    0x00153f        0x19b build/default/production/peripheralSystems.o
+ .debug_abbrev    0x0016da        0x171 build/default/production/timers.o
+ .debug_abbrev    0x00184b        0x172 build/default/production/uart1_config.o
 
 .debug_line       0x000000       0x1be6
  *(.debug_line)
@@ -853,7 +853,7 @@ __FUID3
  .debug_frame     0x0013d0        0x104 build/default/production/timers.o
  .debug_frame     0x0014d4        0x1ac build/default/production/uart1_config.o
 
-.debug_str        0x000000        0xc56
+.debug_str        0x000000        0xc4c
  *(.debug_str)
  .debug_str       0x000000         0x15 build/default/production/FastTransfer/ft.o
  .debug_str       0x000015          0x9 build/default/production/FastTransfer/parser.o
@@ -868,12 +868,11 @@ __FUID3
  .debug_str       0x000886        0x199 build/default/production/mcc_generated_files/system.o
  .debug_str       0x000a1f         0x24 build/default/production/mcc_generated_files/traps.o
  .debug_str       0x000a43         0x37 build/default/production/FastTransfer_CAN.o
- .debug_str       0x000a7a          0xa build/default/production/Init.o
- .debug_str       0x000a84        0x11f build/default/production/commsReceive.o
- .debug_str       0x000ba3         0x1e build/default/production/main.o
- .debug_str       0x000bc1         0x1b build/default/production/peripheralSystems.o
- .debug_str       0x000bdc         0x31 build/default/production/timers.o
- .debug_str       0x000c0d         0x49 build/default/production/uart1_config.o
+ .debug_str       0x000a7a        0x11f build/default/production/commsReceive.o
+ .debug_str       0x000b99         0x1e build/default/production/main.o
+ .debug_str       0x000bb7         0x1b build/default/production/peripheralSystems.o
+ .debug_str       0x000bd2         0x31 build/default/production/timers.o
+ .debug_str       0x000c03         0x49 build/default/production/uart1_config.o
 
 .debug_loc
  *(.debug_loc)
@@ -3091,13 +3090,13 @@ LOAD c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\libm-elf.a
 LOAD c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-c-elf.a
 END GROUP
 OUTPUT(dist/default/production/RouterCardSecondary.X.production.elf elf32-pic30)
-LOAD /CW/_FGSp*ô
+LOAD /CW/_FGSà__FGS.sec
 LOAD jump_table
 LOAD default_isr
 LOAD data_init
 
 .debug_pubtypes
-                  0x000230       0x15df
+                  0x000230       0x15c0
  .debug_pubtypes
                   0x000230         0x1e build/default/production/FastTransfer/crc.o
  .debug_pubtypes
@@ -3129,72 +3128,72 @@ LOAD data_init
  .debug_pubtypes
                   0x001341         0xf8 build/default/production/FastTransfer_CAN.o
  .debug_pubtypes
-                  0x001439         0x3e build/default/production/Init.o
+                  0x001439         0x1f build/default/production/Init.o
  .debug_pubtypes
-                  0x001477         0xbd build/default/production/commsReceive.o
+                  0x001458         0xbd build/default/production/commsReceive.o
  .debug_pubtypes
-                  0x001534         0xce build/default/production/main.o
+                  0x001515         0xce build/default/production/main.o
  .debug_pubtypes
-                  0x001602         0xa8 build/default/production/peripheralSystems.o
+                  0x0015e3         0xa8 build/default/production/peripheralSystems.o
  .debug_pubtypes
-                  0x0016aa         0xa1 build/default/production/timers.o
+                  0x00168b         0xa1 build/default/production/timers.o
  .debug_pubtypes
-                  0x00174b         0xc4 build/default/production/uart1_config.o
+                  0x00172c         0xc4 build/default/production/uart1_config.o
 
 __c30_signature
-                  0x00180f         0x9c
+                  0x0017f0         0x9c
  __c30_signature
-                  0x00180f          0x6 build/default/production/FastTransfer/crc.o
+                  0x0017f0          0x6 build/default/production/FastTransfer/crc.o
  __c30_signature
-                  0x001815          0x6 build/default/production/FastTransfer/ft.o
+                  0x0017f6          0x6 build/default/production/FastTransfer/ft.o
  __c30_signature
-                  0x00181b          0x6 build/default/production/FastTransfer/parser.o
+                  0x0017fc          0x6 build/default/production/FastTransfer/parser.o
  __c30_signature
-                  0x001821          0x6 build/default/production/FastTransfer/ring_buffer.o
+                  0x001802          0x6 build/default/production/FastTransfer/ring_buffer.o
  __c30_signature
-                  0x001827          0x6 build/default/production/mcc_generated_files/can1.o
+                  0x001808          0x6 build/default/production/mcc_generated_files/can1.o
  __c30_signature
-                  0x00182d          0x6 build/default/production/mcc_generated_files/clock.o
+                  0x00180e          0x6 build/default/production/mcc_generated_files/clock.o
  __c30_signature
-                  0x001833          0x6 build/default/production/mcc_generated_files/dma.o
+                  0x001814          0x6 build/default/production/mcc_generated_files/dma.o
  __c30_signature
-                  0x001839          0x6 build/default/production/mcc_generated_files/ecan1.o
+                  0x00181a          0x6 build/default/production/mcc_generated_files/ecan1.o
  __c30_signature
-                  0x00183f          0x6 build/default/production/mcc_generated_files/interrupt_manager.o
+                  0x001820          0x6 build/default/production/mcc_generated_files/interrupt_manager.o
  __c30_signature
-                  0x001845          0x6 build/default/production/mcc_generated_files/mcc.o
+                  0x001826          0x6 build/default/production/mcc_generated_files/mcc.o
  __c30_signature
-                  0x00184b          0x6 build/default/production/mcc_generated_files/pin_manager.o
+                  0x00182c          0x6 build/default/production/mcc_generated_files/pin_manager.o
  __c30_signature
-                  0x001851          0x6 build/default/production/mcc_generated_files/reset.o
+                  0x001832          0x6 build/default/production/mcc_generated_files/reset.o
  __c30_signature
-                  0x001857          0x6 build/default/production/mcc_generated_files/system.o
+                  0x001838          0x6 build/default/production/mcc_generated_files/system.o
  __c30_signature
-                  0x00185d          0x6 build/default/production/mcc_generated_files/traps.o
+                  0x00183e          0x6 build/default/production/mcc_generated_files/traps.o
  __c30_signature
-                  0x001863          0x6 build/default/production/FastTransfer_CAN.o
+                  0x001844          0x6 build/default/production/FastTransfer_CAN.o
  __c30_signature
-                  0x001869          0x6 build/default/production/Init.o
+                  0x00184a          0x6 build/default/production/Init.o
  __c30_signature
-                  0x00186f          0x6 build/default/production/commsReceive.o
+                  0x001850          0x6 build/default/production/commsReceive.o
  __c30_signature
-                  0x001875          0x6 build/default/production/main.o
+                  0x001856          0x6 build/default/production/main.o
  __c30_signature
-                  0x00187b          0x6 build/default/production/peripheralSystems.o
+                  0x00185c          0x6 build/default/production/peripheralSystems.o
  __c30_signature
-                  0x001881          0x6 build/default/production/timers.o
+                  0x001862          0x6 build/default/production/timers.o
  __c30_signature
-                  0x001887          0x6 build/default/production/uart1_config.o
+                  0x001868          0x6 build/default/production/uart1_config.o
  __c30_signature
-                  0x00188d          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
+                  0x00186e          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
  __c30_signature
-                  0x001893          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
+                  0x001874          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
  __c30_signature
-                  0x001899          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-pic30-elf.a(delay32ep.Leo)
+                  0x00187a          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-pic30-elf.a(delay32ep.Leo)
  __c30_signature
-                  0x00189f          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\libm-elf.a(divmoddi3.epeo)
+                  0x001880          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\libm-elf.a(divmoddi3.epeo)
  __c30_signature
-                  0x0018a5          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-c-elf.a(memset.EP_eo)
+                  0x001886          0x6 c:/program files (x86)/microchip/xc16/v1.35/bin/bin/../../lib\liblega-c-elf.a(memset.EP_eo)
 
 .nbss               0x1000         0x4c
  .nbss              0x1000         0x26 build/default/production/commsReceive.o
@@ -3256,9 +3255,9 @@ __c30_signature
                     0x1432                  _ft_handle
                     0x1506                  _ftc_handle
 
-_0589E4805e693e0a
+_058AE4805e6b1cc7
                     0x1800        0x200
- _0589E4805e693e0a
+ _058AE4805e6b1cc7
                     0x1800        0x200 build/default/production/mcc_generated_files/can1.o
 
 .bss                0x1a00         0xa8
